@@ -1,0 +1,49 @@
+$bodyColor: #010101;
+$fontSize: sans-serif;
+$fontStyle: 18px arial;
+$headerfooterBackground: yellow;
+$headerHeight: 50px;
+$mainBackground: cyan;
+$footerHeight: 0 60px;
+
+body {
+    color: $bodyColor;
+    display: flex;
+    font: $fontSize, $fontStyle;
+    flex-direction: column;
+    margin: 0;
+    min-height: 100vh;
+}
+
+.wrapper {
+    margin: $footerHeight;
+}
+
+.header {
+    background: $headerfooterBackground;
+    height: $headerHeight;
+    padding: 10px 0;
+    box-sizing: border-box;
+}
+
+.main {
+    background: $mainBackground;
+    flex: 1;
+}
+
+.main__title {
+    color: #fff;
+    font-size: 2.5em;
+}
+
+.main__content p {
+    font-size: 1.1em;
+    line-height: 140%;
+}
+
+.footer {
+    background: $headerfooterBackground;
+    height: $headerHeight;
+    padding: 10px 0;
+    box-sizing: border-box;
+}
