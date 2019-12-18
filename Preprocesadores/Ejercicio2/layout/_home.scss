@@ -1,0 +1,13 @@
+@import 'core/variables';
+
+#main1 {
+
+    height: $mainSectionSize;
+    text-align: $textPosition;
+    min-height: $mainSectionSize;
+}
+
+#main2 {
+
+    text-align: $textPosition;
+}

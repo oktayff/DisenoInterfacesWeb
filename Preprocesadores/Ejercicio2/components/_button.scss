@@ -1,0 +1,8 @@
+@import 'core/variables';
+
+button {
+
+    background-color: $buttonColor;
+    border-radius: $buttonRatio;
+    height: $buttonHeight;
+}

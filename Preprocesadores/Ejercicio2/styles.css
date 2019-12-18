@@ -1,0 +1,24 @@
+button {
+  background-color: red;
+  border-radius: 5px;
+  height: 45px; }
+
+header {
+  text-align: center;
+  height: 75px; }
+  @media all and (min-width: 768px) {
+    header {
+      height: 100px; } }
+  @media all and (min-width: 1280px) {
+    header {
+      height: 110px; } }
+
+#main1 {
+  height: 50%;
+  text-align: center;
+  min-height: 50%; }
+
+#main2 {
+  text-align: center; }
+
+/*# sourceMappingURL=styles.css.map */
